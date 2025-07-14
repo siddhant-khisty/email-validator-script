@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -22,7 +21,7 @@ type ResponseBody struct {
 }
 
 const (
-	concurrency = 100
+	concurrency = 500 // Change this to increase number of concerancy
 	apiURL      = "http://localhost:9100/v0/check_email"
 	inputFile   = "emails.txt"
 	validFile   = "valid_emails.txt"
